@@ -3,8 +3,8 @@ let player2 = Math.floor(Math.random()*6)+1;
 
 let randomimage1 = "Alea_" + player1 + ".png"
 let randomimage2 = "Alea_" + player2 + ".png"
-let imagesource1 = "/images/"+randomimage1;
-let imagesource2 = "/images/"+randomimage2;
+let imagesource1 = "images/"+randomimage1;
+let imagesource2 = "images/"+randomimage2;
 
 const btn = document.querySelector("button");
 
